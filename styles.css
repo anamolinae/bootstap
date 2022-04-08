@@ -1,0 +1,87 @@
+/* NAV BAR */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #333;
+  }
+  
+  .logofontanaletras{
+
+
+  }
+
+  #logobar{
+    max-width: 3rem;
+    max-width: 3rem;
+  }
+  .logofontanaletras{
+    color: white;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: rgb(0, 0, 0);
+    color: #1BB5F2;
+  }
+.menu{
+  position: sticky;
+}
+
+#logofontanaennav{
+  font-family: 'Bebas Neue';
+  font-size: large;
+  justify-content: end;
+
+}
+
+header{
+  flex-wrap: nowrap;
+}
+
+/*fondo*/
+#fondo-llaves #fondoblanco {
+  max-width: 100%;
+  height: auto;
+}
+
+/* FOOTER*/
+footer{
+    background-color: #333;
+    color: white;
+    padding: auto;
+    text-align: center;
+
+}
+
+
+/*fondo blanco o degradado*/
+#fondoblanco{
+  background: linear-gradient(to bottom,white 80%, #333);
+}
+
+
+#fontana{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.imagenesitem{
+  max-width: 15rem;
+  max-height: 15rem;
+}
